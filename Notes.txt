@@ -1,0 +1,7 @@
+For migrations EF Net Core, in Nuget Package Console in VS:
+Install-Package Microsoft.EntityFrameworkCore.Tools -ProjectName MyLeasing.Web
+
+Then:
+update-database
+add-migration initialDb
+update-database
